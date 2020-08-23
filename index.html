@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="mycss.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <a href="#welcome-section">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#social">Social</a>
+
+    </nav>
+    <header id="welcome-section">
+
+        <h1>Assalam-o-Alaikum!</h1>
+        <p>My name is Muhammad Ali</p>
+        <p>and I am a Web-Developer</p>
+
+    </header>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+
+
+            <a href="https://www.freecodecamp.org/coding_boy" target="_blank" class="project-tile">
+                <img src="https://user-images.githubusercontent.com/26346816/33130932-f9c1cc54-cfba-11e7-8e4b-f486f673e5a6.png"
+                    alt="Random Quote Generator">
+                <p>Random Quote Generator</p>
+            </a>
+            <a href="https://www.freecodecamp.org/coding_boy" target="_blank" class="project-tile">
+                <img src="https://raw.githubusercontent.com/kamerk22/random-password-generator/master/screenshot/night.png"
+                    alt="password generator">
+                <p>Password Generator</p>
+            </a>
+            <a href="https://www.freecodecamp.org/coding_boy" target="_blank" class="project-tile">
+                <img src="https://qph.fs.quoracdn.net/main-qimg-6bb96fbcc0da973e44c6a655bccc57eb.webp"
+                    alt="JavaScript Calculator">
+                <p>JavaScript Calculator</p>
+            </a>
+            <a href="https://www.freecodecamp.org/coding_boy" target="_blank" class="project-tile">
+                <img src="https://f1.madcapsoftware.com/blogImages/2019/02/inspire-spryker.png"
+                    alt="Technical Documentation Page">
+                <p>Technical Documentation Page</p>
+            </a>
+        </div>
+    </section>
+
+    <section id="social" class="bg-pinkish">
+        <h2>Social Media</h2>
+        <p>You can find me on</p>
+        <ul class="social-ul">
+            <li> <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+
+            <li><a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i> </a></li>
+            <li><a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a id="profile-link" href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a></li>
+
+        </ul>
+
+
+    </section>
+
+    <footer>Made with <i class="fas fa-heart"></i>by Muhammad Ali</footer>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAXDO0JAsIpd9oLWipLZRX-jgPk6a77iZ0",
+            authDomain: "ali-porfolio.firebaseapp.com",
+            databaseURL: "https://ali-porfolio.firebaseio.com",
+            projectId: "ali-porfolio",
+            storageBucket: "ali-porfolio.appspot.com",
+            messagingSenderId: "905398381436",
+            appId: "1:905398381436:web:3e38950584dda42cf012f9"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+</body>
+
+</html>
